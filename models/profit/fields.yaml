@@ -1,0 +1,22 @@
+fields:
+    user:
+        label: 'User finder'
+        nameFrom: name
+        descriptionFrom: surname
+        list: $/rainlab/user/models/user/columns.yaml
+        span: auto
+        required: 1
+        type: recordfinder
+    deposit:
+        label: 'Deposit finder'
+        nameFrom: user.name
+        descriptionFrom: amount
+        list: $/shohabbos/invest/models/deposit/columns.yaml
+        span: auto
+        required: 1
+        type: recordfinder
+    amount:
+        label: Amount
+        span: auto
+        required: 1
+        type: number

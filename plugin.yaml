@@ -1,0 +1,34 @@
+plugin:
+    name: 'shohabbos.invest::lang.plugin.name'
+    description: 'shohabbos.invest::lang.plugin.description'
+    author: Shohabbos
+    icon: oc-icon-bank
+    homepage: ''
+permissions:
+    manage_deposits:
+        tab: 'shohabbos.invest::lang.plugin.name'
+        label: 'Manage deposits'
+    manage_profits:
+        tab: 'shohabbos.invest::lang.plugin.name'
+        label: 'Manage profits'
+    manage_plans:
+        tab: 'shohabbos.invest::lang.plugin.name'
+        label: 'Manage plans'
+navigation:
+    invest:
+        label: Invest
+        url: shohabbos/invest/deposits
+        icon: icon-bank
+        sideMenu:
+            invest-plans:
+                label: Plans
+                url: shohabbos/invest/plans
+                icon: icon-tags
+            invest-deposit:
+                label: Deposits
+                url: shohabbos/invest/deposits
+                icon: icon-bank
+            invest-profit:
+                label: Profits
+                url: shohabbos/invest/profits
+                icon: icon-money

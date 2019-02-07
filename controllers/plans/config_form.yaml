@@ -1,0 +1,10 @@
+name: Plans
+form: $/shohabbos/invest/models/plan/fields.yaml
+modelClass: Shohabbos\Invest\Models\Plan
+defaultRedirect: shohabbos/invest/plans
+create:
+    redirect: 'shohabbos/invest/plans/update/:id'
+    redirectClose: shohabbos/invest/plans
+update:
+    redirect: shohabbos/invest/plans
+    redirectClose: shohabbos/invest/plans

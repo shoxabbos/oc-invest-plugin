@@ -1,0 +1,10 @@
+name: Deposits
+form: $/shohabbos/invest/models/deposit/fields.yaml
+modelClass: Shohabbos\Invest\Models\Deposit
+defaultRedirect: shohabbos/invest/deposits
+create:
+    redirect: 'shohabbos/invest/deposits/update/:id'
+    redirectClose: shohabbos/invest/deposits
+update:
+    redirect: shohabbos/invest/deposits
+    redirectClose: shohabbos/invest/deposits

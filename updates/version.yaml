@@ -1,0 +1,11 @@
+1.0.1:
+    - 'Initialize plugin.'
+1.0.2:
+    - 'Created table shohabbos_invest_plans'
+    - builder_table_create_shohabbos_invest_plans.php
+1.0.3:
+    - 'Created table shohabbos_invest_deposits'
+    - builder_table_create_shohabbos_invest_deposits.php
+1.0.4:
+    - 'Created table shohabbos_invest_profits'
+    - builder_table_create_shohabbos_invest_profits.php

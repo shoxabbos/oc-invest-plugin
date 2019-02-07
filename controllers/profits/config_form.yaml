@@ -1,0 +1,10 @@
+name: Profits
+form: $/shohabbos/invest/models/profit/fields.yaml
+modelClass: Shohabbos\Invest\Models\Profit
+defaultRedirect: shohabbos/invest/profits
+create:
+    redirect: 'shohabbos/invest/profits/update/:id'
+    redirectClose: shohabbos/invest/profits
+update:
+    redirect: shohabbos/invest/profits
+    redirectClose: shohabbos/invest/profits

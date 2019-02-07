@@ -1,0 +1,27 @@
+fields:
+    user:
+        label: User
+        nameFrom: name
+        descriptionFrom: description
+        list: $/rainlab/user/models/user/columns.yaml
+        span: auto
+        required: 1
+        type: recordfinder
+    plan:
+        label: 'Plan finder'
+        nameFrom: title
+        descriptionFrom: description
+        list: $/shohabbos/invest/models/plan/columns.yaml
+        span: auto
+        required: 1
+        type: recordfinder
+    amount:
+        label: Amount
+        span: auto
+        required: 1
+        type: number
+    expired_at:
+        label: 'Expired at'
+        mode: datetime
+        span: auto
+        type: datepicker

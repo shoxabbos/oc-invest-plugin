@@ -1,0 +1,22 @@
+columns:
+    id:
+        label: id
+        type: number
+    user_id:
+        label: user_id
+        type: number
+    plan_id:
+        label: plan_id
+        type: number
+    amount:
+        label: amount
+        type: number
+    created_at:
+        label: created_at
+        type: datetime
+    updated_at:
+        label: updated_at
+        type: datetime
+    expired_at:
+        label: expired_at
+        type: text

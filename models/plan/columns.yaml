@@ -1,0 +1,25 @@
+columns:
+    id:
+        label: id
+        type: number
+    title:
+        label: title
+        type: text
+    description:
+        label: description
+        type: text
+    days:
+        label: days
+        type: number
+    min:
+        label: min
+        type: number
+    max:
+        label: max
+        type: number
+    created_at:
+        label: created_at
+        type: datetime
+    updated_at:
+        label: updated_at
+        type: datetime
