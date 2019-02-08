@@ -20,4 +20,16 @@ class Deposit extends Model
      */
     public $rules = [
     ];
+
+    public $guarded = ['id'];
+
+    public $hasMany = [
+        'profits' => 'Shohabbos\Invest\Models\Profit'
+    ];
+
+    public $belongsTo = [
+        'user' => 'RainLab\User\Models\User',
+        'plan' => 'Shohabbos\Invest\Models\Plan'
+    ];
+
 }

@@ -25,3 +25,14 @@ fields:
         span: auto
         required: 1
         type: textarea
+    photo:
+        label: Photo
+        mode: image
+        imageHeight: '300'
+        useCaption: true
+        thumbOptions:
+            mode: landscape
+            extension: auto
+        span: auto
+        required: 1
+        type: fileupload

@@ -1,0 +1,8 @@
+tabs:
+    fields:
+        percent:
+            required: 1
+            label: 'Процент начисление'
+            span: auto
+            tab: 'Main tab'
+            type: number

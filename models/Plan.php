@@ -20,4 +20,9 @@ class Plan extends Model
      */
     public $rules = [
     ];
+
+    public $attachOne = [
+        'photo' => 'System\Models\File'
+    ];
+    
 }

@@ -8,6 +8,7 @@ columns:
     description:
         label: description
         type: text
+        invisible: true
     days:
         label: days
         type: number
@@ -20,6 +21,8 @@ columns:
     created_at:
         label: created_at
         type: datetime
+        invisible: true
     updated_at:
         label: updated_at
         type: datetime
+        invisible: true

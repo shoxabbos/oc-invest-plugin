@@ -9,3 +9,6 @@
 1.0.4:
     - 'Created table shohabbos_invest_profits'
     - builder_table_create_shohabbos_invest_profits.php
+1.0.5:
+    - 'Updated table shohabbos_invest_profits'
+    - builder_table_update_shohabbos_invest_profits.php

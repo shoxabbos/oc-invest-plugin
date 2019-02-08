@@ -5,18 +5,25 @@ columns:
     user_id:
         label: user_id
         type: number
+        relation: user
+        valueFrom: name
     plan_id:
         label: plan_id
         type: number
+        relation: plan
+        valueFrom: title
     amount:
         label: amount
         type: number
     created_at:
         label: created_at
         type: datetime
+        invisible: true
     updated_at:
         label: updated_at
         type: datetime
+        invisible: true
     expired_at:
         label: expired_at
         type: text
+        invisible: false

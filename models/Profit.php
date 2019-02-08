@@ -20,4 +20,10 @@ class Profit extends Model
      */
     public $rules = [
     ];
+
+    public $guarded = ['id'];
+
+    public $belongsTo = [
+        'deposit' => 'Shohabbos\Invest\Models\Deposit'
+    ];
 }
