@@ -12,3 +12,24 @@
 1.0.5:
     - 'Updated table shohabbos_invest_profits'
     - builder_table_update_shohabbos_invest_profits.php
+1.0.6:
+    - 'Updated table shohabbos_invest_profits'
+    - builder_table_update_shohabbos_invest_profits_2.php
+1.0.7:
+    - 'Add dividend balance'
+    - migration107.php
+1.0.8:
+    - 'Updated table shohabbos_invest_profits'
+    - builder_table_update_shohabbos_invest_profits_3.php
+1.0.9:
+    - 'Change user dividend col type'
+    - migration109.php
+1.0.10:
+    - 'Updated table shohabbos_invest_profits'
+    - builder_table_update_shohabbos_invest_profits_4.php
+1.0.11:
+    - 'Created table shohabbos_invest_withdraws'
+    - builder_table_create_shohabbos_invest_withdraws.php
+1.0.12:
+    - 'Drop table shohabbos_invest_withdraws'
+    - builder_table_delete_shohabbos_invest_withdraws.php

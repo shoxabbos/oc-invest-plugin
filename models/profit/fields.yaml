@@ -12,3 +12,12 @@ fields:
         span: auto
         required: 1
         type: number
+    type:
+        label: Type
+        span: auto
+        required: 1
+        type: text
+    percent:
+        label: 'Percent %'
+        span: auto
+        type: number

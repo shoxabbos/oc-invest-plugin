@@ -17,42 +17,9 @@ class Plugin extends PluginBase
     }
 
 	public function boot() {
-
 		User::extend(function($model) { 
 			$model->hasMany['deposits'] = ['Shohabbos\Invest\Models\Deposit'];
 		});
-
-		Users::extendListColumns(function($list, $model) {
-			if (!$model instanceof User) {
-				return;
-			}
-
-			$list->addColumns([
-				'dividend' => [
-					'label' => 'Dividend balance',
-				]
-			]);
-		});
-
-
-		Users::extendFormFields(function($form, $model, $context) {
-
-			if (!$model instanceof User) {
-				return;
-			}
-
-			$form->addTabFields([
-				'dividend' => [
-					'label' => 'Dividend Balance',
-					'tab' => 'Portal Fields',
-					'type' => 'number',
-					//'readOnly' => true,
-					'span' => 'auto',
-					'comment' => 'Dividend balance of user'
-				],
-			]);
-		});
-		
 	}
 
     public function registerComponents()

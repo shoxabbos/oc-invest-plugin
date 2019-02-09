@@ -41,7 +41,7 @@ class Dividend extends Command
                 Db::transaction(function() use ($deposit, $percent) {
                     $profitAmount = ($deposit->amount / 100) * $percent; 
 
-                    $deposit->user->dividend += $profitAmount;
+                    $deposit->user->balance += $profitAmount;
                     if ($deposit->user->save()) {
                         $profit = new Profit([
                             'deposit_id' => $deposit->id,
