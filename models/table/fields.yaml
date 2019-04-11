@@ -1,0 +1,16 @@
+fields:
+    user_id:
+        label: 'User ID'
+        span: auto
+        required: 1
+        type: number
+    fullname:
+        label: F.I.O
+        span: auto
+        required: 1
+        type: text
+    comment:
+        label: Comment
+        size: small
+        span: full
+        type: textarea
